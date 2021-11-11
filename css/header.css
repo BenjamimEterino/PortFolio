@@ -18,7 +18,7 @@
 .cabecalho__logo {
     padding: 1.5em 0;
     width: 14.5em;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     
     
 }
@@ -26,18 +26,19 @@
     text-align: left;
 }
 .cabecalho__menu{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto;
     background-color: #272b3a87;
   
 }
 .cabecalho__item-menu {
     display: inline-block;
+    font-size: 12px;
 }
 .cabecalho__item-menu a{
     display: inline-block;
     padding: 1.86em 1.42em;
+    
 }
 
 @media (min-width: 640px) {
