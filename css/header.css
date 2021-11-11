@@ -14,6 +14,10 @@
     padding: 1.5em 0;
     width: 14.5em;
     font-size: 1.2rem;
+    
+}
+.cabecalho {
+    text-align: left;
 }
 .cabecalho__menu{
     display: flex;
