@@ -36,6 +36,22 @@
     width: 14.5em;
     font-size: 1.5rem;
 }
+.cabecalho__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    background-color: #272b3a87;  
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
 
 
 
@@ -59,12 +75,7 @@
 .cabecalho {
     text-align: left;
 }
-.cabecalho__menu{
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: #272b3a87;
-  
-}
+
 .cabecalho__item-menu {
     display: inline-block;
     font-size: 12px;
