@@ -3,6 +3,9 @@
     padding-right: 5%;
     margin-top: 5px;
 }
+#navi {
+    display: none;
+}
 
 @media (min-width: 1066px) {
     .container {
