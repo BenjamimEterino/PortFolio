@@ -3,8 +3,11 @@
     padding-right: 5%;
     margin-top: 5px;
 }
-#navi {
+.navbar {
     display: none;
+}
+.show {
+    display: block;
 }
 
 @media (min-width: 1066px) {
